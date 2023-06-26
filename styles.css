@@ -15,8 +15,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   }
-  #header a:hover {
-    color:222;
+#header a:hover {
+    color:#811331;
   }
 #header-title {
  display: block;
@@ -48,24 +48,21 @@ font-size: 17px;
   padding-top: 35px;
   padding: 50px;
 }
+.quotes {
+  float: left;
+}
+.story {
+  margin-left: 300px;
+}
 #footer h4 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-align:center;
 }
 #footer p{
   color: white;
   text-align: center;
-}
-#footer h4{
-  text-align: center;
-}
-a {
-  color: #1abc9e;
-  text-decoration: none;
-}
-a:hover {
-  color: #F6A625;
 }
 .post, .Homework {
   max-width: 800px;
@@ -93,6 +90,11 @@ p {
 .post-title {
   text-align: center;
   font-size: 30px;
+}
+img {
+  width: 10%;
+  height: 10%;
+  border-radius:100%;
 }
 table, th, td {
   border: 1px solid black;
@@ -134,8 +136,8 @@ th {
   color: #f7dc6f;
 }
 #othersubject {
-color: #186a3b;
-text-decoration:underline;
+  color: #186a3b;
+  text-decoration:underline;
 }
 .column p {
   max-width: 500px;
